@@ -1,1 +1,13 @@
-# This is your HTML/PHP file. Delete this comment, and then get started according to the instructions!
+<!DOCTYPE html>
+    <head>
+        <meta charset ="UTF=8">
+        <title>My first PHP Website</title>
+    </head>
+    <body>
+        <?php
+            $time = date("H");
+            $timezone = date("e");
+            
+        ?>
+    </body>        
+</html>
